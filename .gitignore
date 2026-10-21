@@ -1,0 +1,15 @@
+﻿node_modules/
+data/
+releases/
+plans/
+.env
+.env.*
+!.env.example
+.npmrc
+*.db
+*.db-wal
+*.db-shm
+*.log
+*.zip
+Thumbs.db
+.DS_Store

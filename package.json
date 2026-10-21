@@ -1,0 +1,30 @@
+{
+  "name": "pick-skills",
+  "version": "1.2.0",
+  "description": "捡垃圾-skills：Windows 闲鱼关键词搜索、筛选与本地去重工具",
+  "keywords": [
+    "openclaw",
+    "skill",
+    "xianyu",
+    "goofish",
+    "monitor",
+    "闲鱼"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer-core": "^25.15.0"
+  },
+  "engines": {
+    "node": ">=24.12.0"
+  },
+  "scripts": {
+    "browser:start": "node scripts/chrome-启动-v1.cjs start",
+    "browser:status": "node scripts/chrome-启动-v1.cjs status",
+    "start": "node scripts/xianyu.js",
+    "list": "node scripts/xianyu.js list",
+    "scan": "node scripts/xianyu.js scan",
+    "doctor": "node scripts/doctor-环境诊断-v1.cjs",
+    "check": "node --check scripts/xianyu.js && node --check infra/browser-浏览器-v1.cjs && node --check scripts/chrome-启动-v1.cjs && node --check scripts/doctor-环境诊断-v1.cjs"
+  },
+  "author": "lavineleo"
+}
