@@ -6,6 +6,14 @@
 
 通过本机 Chrome 搜索闲鱼，按关键词、价格、地区和标题筛选商品，用 SQLite 保存任务和商品记录并去重。支持 Windows 命令行操作，使用约定见 `SKILL.md`。
 
+## 使用效果
+
+查询商品后，汇总挂牌价格、卖家描述及商品链接，便于对比筛选。
+
+![闲鱼主板价格查询效果](assets/demo-价格查询-v1.png)
+
+*用户提供的实际查询示例。价格为查询时的挂牌信息，商品状态与价格可能变化。*
+
 ## 安装
 
 需要 Windows 10/11、PowerShell 5.1+、**Node.js 24.12+**、**Google Chrome**。不需要 Python、ChromeDriver 或 Selenium，也不需要单独安装 SQLite。Puppeteer Core 通过 CDP 连接本机 Chrome。

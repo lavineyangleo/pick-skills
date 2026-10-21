@@ -11,7 +11,7 @@ if ($package.name -ne 'pick-skills' -or $package.version -notmatch '^\d+\.\d+\.\
 $files = @(
   'README.md','SKILL.md','LICENSE','CHANGELOG.md','.gitignore',
   'package.json','package-lock.json',
-  'assets/logo-捡垃圾-v1.png',
+  'assets/logo-捡垃圾-v1.png','assets/demo-价格查询-v1.png',
   'infra/browser-浏览器-v1.cjs',
   'scripts/xianyu.js','scripts/chrome-启动-v1.cjs','scripts/doctor-环境诊断-v1.cjs',
   'scripts/setup-Windows安装-v1.ps1','scripts/package-GitHub打包-v1.ps1',
